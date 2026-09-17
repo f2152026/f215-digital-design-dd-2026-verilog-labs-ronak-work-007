@@ -11,6 +11,7 @@ wire [7:0] t_dout;
 lut #(.WIDTH(8), .DEPTH(8)) U1 (
     .sel  (t_sel),
     .dout (t_dout)
+    
   );
 
 integer i;
