@@ -11,6 +11,7 @@ comp2 U1 (
     .LT (t_lt),
     .EQ (t_eq)
   );
+  
 
 integer i, j;
 integer errors;
